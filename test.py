@@ -2,7 +2,7 @@ import os
 
 
 os.mkdir('result')
-with open(os.path.join('result', 'result.conll')) as f:
+with open(os.path.join('result', 'result.conll'), 'w') as f:
     result = '''1   Cathy             Cathy             N     N     eigen|ev|neut                    2   su      _  _
 2   zag               zie               V     V     trans|ovt|1of2of3|ev             0   ROOT    _  _
 3   hen               hen               Pron  Pron  per|3|mv|datofacc                2   obj1    _  _
