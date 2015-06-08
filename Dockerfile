@@ -1,4 +1,4 @@
 FROM ubuntu:14.04
 
-RUN apt-get install python
+RUN apt-get -y install python
 
